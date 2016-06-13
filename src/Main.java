@@ -72,7 +72,7 @@ public class Main {
                     }
                 }
                 ArrayList<Integer> menorRuta = rutaPermutacion.get(posMenor);
-                System.out.print("El primer repartidor visitara: ");
+                System.out.print("El repartidor visitara: ");
                 for (int num:menorRuta) {
                     System.out.print(num);
                 }
