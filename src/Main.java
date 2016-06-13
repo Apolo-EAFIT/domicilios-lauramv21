@@ -54,6 +54,7 @@ public class Main {
                     for (int k = 0; k < unaPerm.length-1; k++) {
                         Dijkstra camino = new Dijkstra(k,ciudad);
                         ArrayList<Integer> temp = camino.ruta(k+1);
+                        temp = camino.sacarRepetido(temp);
                         rutaCompleta.addAll(temp);
                     }
                     rutaPermutacion.add(rutaCompleta);
