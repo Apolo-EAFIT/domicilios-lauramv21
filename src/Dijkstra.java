@@ -83,7 +83,8 @@ public class Dijkstra {
         if (j != s) {
             ruta(ultimo[j]);
             if (D[j] != 9999) {
-                System.out.println("Se recorrio de " + ultimo[j] + " a " + j);
+
+                //System.out.println("Se recorrio de " + ultimo[j] + " a " + j);
                 ruta.add(ultimo[j]);
                 if (!ruta.contains(ultimo[j])) {
                     ruta.add(ultimo[j]);
